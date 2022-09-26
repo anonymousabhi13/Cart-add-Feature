@@ -45,8 +45,8 @@ Loginbtn.addEventListener("click", () => {
     localStorage.setItem("name", InputName.value);
     localStorage.setItem("password", Password.value);
     // window.location.href = "index.html";
-    // signIn.style.display = "none";
-    // Cart.style.display = "initial";
+    signIn.style.display = "none";
+    Cart.style.display = "initial";
   } else {
     alert("Login failed");
   }
@@ -60,8 +60,8 @@ LoginbtnS.addEventListener("click", () => {
   if (InputNameV.value == name && PasswordV.value == password) {
     // alert("Login successful");
     // window.location.href = "index.html";
-    // signIn.style.display = "none";
-    // Cart.style.display = "initial";
+    Login.style.display = "none";
+    Cart.style.display = "initial";
   } else {
     alert("User Doesn't Exists");
   }
